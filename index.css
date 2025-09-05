@@ -1,0 +1,47 @@
+/* File: at.css */
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+
+    padding: 1rem;
+}
+
+div#main {
+    width: 100%;
+
+    padding: 1rem;
+}
+
+h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        margin: 1% 10%;
+    }
+
+    header {
+        float: left;
+        position: fixed;
+
+        width: 30%;
+
+        padding: 1rem;
+    }
+
+    div#main {
+        float: right;
+
+        width: 60%;
+
+        padding: 1rem;
+    }
+
+    .mobile-visible {
+        display: none;
+    }
+}
